@@ -1,0 +1,14 @@
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\bin\Debug\BevisAndButtheadClient.exe.config
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\bin\Debug\BevisAndButtheadClient.exe
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\bin\Debug\BevisAndButtheadClient.pdb
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.csproj.AssemblyReference.cache
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.Form1.resources
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.Properties.Resources.resources
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.csproj.GenerateResource.cache
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.csproj.CoreCompileInputs.cache
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.exe
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.pdb
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\S7yka4\source\repos\BevisAndButtheadClient\BevisAndButtheadClient\obj\Debug\BevisAndButtheadClient.csproj.CopyComplete
