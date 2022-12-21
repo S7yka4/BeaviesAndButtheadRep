@@ -1,0 +1,62 @@
+﻿@using Constructor.Storage.Models;
+
+@model List<Case>;
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <environment names="Development">
+        <link rel="stylesheet" href="~/css/MainStyleSheet.css" />
+    </environment>
+</head>
+<body>
+    
+    <h2>ID сборки</h2>
+    <h1>@ViewData["id"]</h1>
+    
+    @foreach (var tmp in Model)
+    {
+        <div style="float:left;">
+        <label style="color:white; font-size: 80px;">@tmp.Name</label>
+        <br />
+        <div class="CaseSection" style="float:left;">
+            
+                <br />
+                <label style="color:white;">Количество: @tmp.Count</label>
+                <br />
+                <label style="color:white;">Цена: @tmp.Cost</label>
+                <br />
+                <label style="color:white;">Формафактор: @tmp.FormFactor</label>
+                <br />
+                <label style="color:white;">Количество вентиляторов 140мм: @tmp.Fan140Count</label>
+                <br />
+                <label style="color:white;">Количество вентиляторов 120мм: @tmp.Fan120Count</label>
+                <br />
+                <label style="color:white;">Количество вентиляторов 90мм: @tmp.Fan90Count</label>
+                <br />
+                <label style="color:white;">Количество жестких дисков 2.5: @tmp.Drive25Count</label>
+                <br />
+                <label style="color:white;">Количество жестких дисков 3.5: @tmp.Drive35Count</label>
+            @using (Html.BeginForm("EditAssembly", "Case", FormMethod.Post))
+            {
+
+                <input type="hidden" name="CaseId" value="@tmp.Id">
+                <input type="submit" value="Добавить в сборку">
+            }
+            </div>
+            <div>
+            <img src=@tmp.Img width="300" height="255" alt="lorem">
+            </div>
+       
+            
+        
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        </div>
+    }
+</body>
+
